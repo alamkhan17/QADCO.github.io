@@ -81,27 +81,29 @@
             <div class="row">
                <div class="col-md-6">
                   <div class="contact-form">
-                     <h3>Feel Free to Contact us</h3>
-                     <ul class="cform">
-                        <li class="half pr-15">
-                           <input type="text" class="form-control" placeholder="Full Name">
-                        </li>
-                        <li class="half pl-15">
-                           <input type="email" class="form-control" placeholder="Email">
-                        </li>
-                        <li class="half pr-15">
-                           <input type="tel" class="form-control" placeholder="Contact">
-                        </li>
-                        <li class="half pl-15">
-                           <input type="text" class="form-control" placeholder="Subject">
-                        </li>
-                        <li class="full">
-                           <textarea class="textarea-control" placeholder="Message"></textarea>
-                        </li>
-                        <li class="full">
-                           <input type="submit" value="Contact us" class="fsubmit">
-                        </li>
-                     </ul>
+                     <form method="POST" action="form.php" id="contact-form">
+                        <h3>Feel Free to Contact us</h3>
+                        <ul class="cform">
+                           <li class="half pr-15">
+                              <input type="text" name="name" class="form-control" placeholder="Full Name">
+                           </li>
+                           <li class="half pl-15">
+                              <input type="email" name="email" class="form-control" placeholder="Email">
+                           </li>
+                           <li class="half pr-15">
+                              <input type="tel" class="form-control" placeholder="Contact">
+                           </li>
+                           <li class="half pl-15">
+                              <input type="text" class="form-control" placeholder="Subject">
+                           </li>
+                           <li class="full">
+                              <textarea class="textarea-control" name="message" placeholder="Message"></textarea>
+                           </li>
+                           <li class="full">
+                              <input type="submit" value="send" class="fsubmit">
+                           </li>
+                        </ul>
+                     </form>
                   </div>
                </div>
                <div class="col-md-6">
@@ -203,8 +205,7 @@
                <div class="row">
                   <div class="col-md-4 col-sm-4"> <img src="assets/logo/QADCO-logo-final.jpg" alt=""> </div>
                   <div class="col-md-8 col-sm-8">
-                     <p><a target="_blank " class="text-white" href="#">QADCO All right reserved. Design By
-                           <strong>KhanTech Solution</strong> </a></p>
+                     <p>All right reserved By <strong>QADCO</strong></p>
                   </div>
                </div>
             </div>
@@ -222,13 +223,13 @@
    <script src="js/jquery.prettyPhoto.js"></script>
    <script src="js/isotope.min.js"></script>
    <script src="js/custom.js"></script>
-
+   <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
    <!-- Bootstrap core JavaScript
     ================================================== -->
    <!-- Placed at the end of the document so the pages load faster -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
+   
 </body>
 
 </html>

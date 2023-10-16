@@ -1711,9 +1711,9 @@ ul.lastest-products li:last-child {
 }
 
 .footer-copyr img {
-	max-width: 200px;
-	height: 100px;
-	object-fit: fill;
+	/* max-width: 290px; */
+	height: 65px;
+	object-fit: cover;
 }
 
 .footer-copyr p {
@@ -1756,7 +1756,7 @@ header.header-style-2 .navbar {
 }
 
 header.header-style-2 .navbar-brand img {
-	height: 40px;
+	height: auto;
 	width: 100%;
 	object-fit: cover;
 }
@@ -1765,7 +1765,7 @@ header.header-style-2 .navbar-brand {
 	background: #ffffff;
 	width: 270px;
 	text-align: center;
-	padding: 13px 0;
+	padding: 0;
 	margin-right: 100px;
 }
 
@@ -1874,6 +1874,8 @@ a.search-icon:hover {
 .header-active-tab {
 	background-color: #2a0e72;
 	color: #ffffff !important;
+	border-bottom: 5px solid #2a0e72 !important;
+	font-weight: 800 !important;
 }
 
 .header-style-2 .navbar-expand-lg .navbar-nav .nav-link {
