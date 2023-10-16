@@ -8499,3 +8499,7 @@ a.lm,
 .tranding-project .item {
 	border: 1px solid;
 }
+
+.project-images img {
+	width: 100%;
+}
